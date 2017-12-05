@@ -4,7 +4,7 @@ var port = 3000;
 var primes = require('./primes.js');
 
 app.get('/', function(req, res){
-    res.status(200).send('Hello World!!!');
+    res.status(200).send('Hello Google!!!');
 })
 
 app.get('/isPrime/:number', function(req, res){
